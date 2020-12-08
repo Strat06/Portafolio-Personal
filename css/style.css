@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,400;1,700;1,800&display=swap');
+
+
+:root{
+	--color-base: #00a1a2;
+	--color-secundario: #642681;
+	--color-negro: #333;
+	--color-blanco: white;
+	--color-titulos: #39454d;
+	--fondo: #3b4044;
+	
+	--fondo-top: #2c2e30;
+	
+	--color-primario: #60c2d3;
+	--color-contenido: #808080;
+	
+	--fondo-gris: #f8f8f9;
+	--fondo-footer:#e7e7e7;
+}
+
+body{
+	font-family: 'EB Garamond', serif;
+	font-size: 14px;
+	background-color: var(--fondo);
+	color: var(--color-blanco);
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'EB Garamond', serif;
+	font-weight: 300;
+	color: var(--color-base);
+	text-align: center;
+}
+
+h1{
+	padding-top: 100px;
+}
+
+#sub-menu a{
+	color: var(--color-base);
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 30px;
+	
+}
+
+#sub-menu .list-inline, #sub-menu .list-inline-item{
+	margin: 0px;
+	padding: 0px;
+}
+
+#trabajos a:hover{
+	color: var(--color-blanco);
+}
+
+hr{
+	background-color: var(--color-base);
+	border-width: 1px;
+	margin-bottom: 50px;
+}
+
+.borde-derecho{
+	border-right: 1px solid var(--color-base);
+	border-width: 3px;
+	height: 100px;
+	padding-top: 30px;
+}
+
+#servicios .row{
+	padding: 30px 0px;
+}
+
+#servicios article p{
+	
+
+	padding: 30px;
+}
+
+#carrusel{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header{
+	background-color: var(--fondo);
+}
+
+
+.carousel-caption{
+	display: grid;
+	align-content: center;
+	height: 100%;
+	text-align: left;
+}
+
+.carousel-caption h2{
+	font-size: 50px;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+
+.carousel-caption p{
+	font-size: 20px;
+}
+
+footer{
+	background-color: var(--fondo);
+	padding: 25px 0;
+	font-size: 12px;
+}
+
+.fab{
+	background-color: var(--color-base);
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.fab:hover{
+	background-color: var(--color-blanco);
+	color: var(--color-base);
+}
+
+#contacto input{
+	width: 1000px;
+	
+}
+
+.boton{
+	border: thin solid var(--color-blanco);
+	border-radius: 10%;
+	padding: 10px 20px;
+	color: var(--color-blanco);
+	text-decoration: none;
+}
+
+.boton:hover{
+	text-decoration: none;
+	background-color: var(--color-blanco);
+	color: var(--color-base);
+	font-weight: 800;
+}
+
+#logos img{
+	margin-left: auto;
+	margin-top: auto;
+	
+}
+
+.fondo-blanco{
+	background-color: var(--color-blanco);
+	width: auto;
+}
+
+video{
+	margin: auto;
+}
+
+#dibujos img{
+	
+}
