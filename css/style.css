@@ -8,14 +8,6 @@
 	--color-blanco: white;
 	--color-titulos: #39454d;
 	--fondo: #3b4044;
-	
-	--fondo-top: #2c2e30;
-	
-	--color-primario: #60c2d3;
-	--color-contenido: #808080;
-	
-	--fondo-gris: #f8f8f9;
-	--fondo-footer:#e7e7e7;
 }
 
 body{
@@ -40,13 +32,19 @@ h1{
 	color: var(--color-base);
 	font-size: 20px;
 	text-decoration: none;
-	padding-left: 30px;
-	
+	padding-left: 30px;	
 }
 
 #sub-menu .list-inline, #sub-menu .list-inline-item{
 	margin: 0px;
 	padding: 0px;
+}
+
+#header-nav .active{
+	background-color: var(--color-blanco);
+	padding-left: 20px;
+	border-radius: 5%;
+	font-weight: 500;
 }
 
 #trabajos a:hover{
@@ -71,8 +69,6 @@ hr{
 }
 
 #servicios article p{
-	
-
 	padding: 30px;
 }
 
@@ -125,8 +121,13 @@ footer{
 }
 
 #contacto input{
-	width: 1000px;
-	
+	width: 700px;
+}
+
+.static{
+	position: fixed;
+	left: 30px;
+	bottom: 30px;
 }
 
 .boton{
@@ -135,6 +136,7 @@ footer{
 	padding: 10px 20px;
 	color: var(--color-blanco);
 	text-decoration: none;
+	background-color: var(--fondo);
 }
 
 .boton:hover{
@@ -159,6 +161,50 @@ video{
 	margin: auto;
 }
 
-#dibujos img{
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: var(--fondo);
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	padding: 5px;
+}
+
+.carousel-indicators li{
+	background-color: var(--fondo);
+}
+
+#acerca img{
+	margin-left: 400px;
+	margin-bottom: 50px;
+	border-radius: 50%;
+}
+
+
+
+/*Celular*/
+@media (max-width: 600px){
 	
+	#servicios hr{
+		height: 0px;
+	}
+	
+	#sub-menu a{
+	padding-left: 8px;	
+}
+	
+	#acerca img{
+		margin: 25px;
+	}
+	
+	#contacto input{
+	width: 300px;
+	}
+	
+	#dibujos img, #logos img, #logos .fondo-blanco{
+		margin-bottom: 10px;
+	}
+	
+	#animacion video{
+		margin-bottom: 10px;
+	}
 }
